@@ -20,7 +20,7 @@ RUN sudo apt-get install -y ttf-wqy-zenhei
 ENV LANG=zh_CN.UTF-8
 
 # 处理时区问题
-RUN echo "Asia/shanghai" > /etc/timezone;
+RUN echo "Asia/shanghai" > /etc/timezone
 
 RUN apt-get install -y wget
 
